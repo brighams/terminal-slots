@@ -1,0 +1,12 @@
+{
+  "name": "terminal-slots",
+  "version": "1.0.0",
+  "description": "Terminal slot machine",
+  "type": "module",
+  "bin": {
+    "terminal-slots": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
