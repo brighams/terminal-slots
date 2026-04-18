@@ -2,8 +2,8 @@
 set -e
 
 if [ -z "$1" ]; then
-  echo "Usage: npm run publish <version>"
-  echo "Example: npm run publish 1.0.2"
+  echo "Usage: npm run release <version>"
+  echo "Example: npm run release 1.0.6"
   exit 1
 fi
 
@@ -20,5 +20,4 @@ git push
 git push --tags
 
 # npm operations
-npm login
-npm publish
+npm publish --otp
