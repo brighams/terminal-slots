@@ -7,7 +7,7 @@ A terminal slot machine game.
 - Node.js 18+
 - Sound requires Linux with `aplay` (ALSA) — ships with most distros. The game runs fine without it.
 
-## Install
+## Install - clone it! Then
 
 ```bash
 cd terminal-slots
@@ -19,6 +19,13 @@ Then run from anywhere:
 ```bash
 terminal-slots
 ```
+
+## npm module -> new! Freshly published
+
+npm install -g terminal-slots
+
+then run ``terminal-slots`` from anywhere
+
 
 ![README.png](README.png)
 
