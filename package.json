@@ -1,7 +1,7 @@
 {
   "name": "terminal-slots",
   "author": "Brigham Stevens",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Terminal Slot Machine Game (18+)",
   "main": "index.js",
   "type": "module",
