@@ -1,11 +1,33 @@
 {
   "name": "terminal-slots",
-  "version": "1.0.0",
-  "description": "Terminal slot machine",
+  "author": "Brigham Stevens",
+  "version": "1.0.2",
+  "description": "Terminal Slot Machine Game (18+)",
+  "main": "index.js",
   "type": "module",
   "bin": {
     "terminal-slots": "./index.js"
   },
+  "scripts": {
+    "publish": "./publish.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brighams/terminal-slots.git"
+  },
+  "keywords": [
+    "terminal",
+    "slots",
+    "slot-machine",
+    "cli",
+    "game",
+    "tui"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brighams/terminal-slots/issues"
+  },
+  "homepage": "https://github.com/brighams/terminal-slots#readme",
   "engines": {
     "node": ">=18"
   }
